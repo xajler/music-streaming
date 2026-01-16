@@ -51,7 +51,7 @@ Building a NAS + audio endpoint using Raspberry Pi 5 with Radxa Penta SATA HAT f
 |-----------|-------|--------|-------|
 | **Raspberry Pi 5** | 8GB RAM | [Berrybase.de](https://www.berrybase.de) | 4x A76 @ 2.4GHz |
 | **Radxa Penta SATA HAT** | 5-port SATA | [Berrybase.de](https://www.berrybase.de) | Includes SATA cables |
-| **Radxa Top Board** | OLED + Fan | [Berrybase.de](https://www.berrybase.de) | IP display, cooling |
+| **Radxa Top Board** | OLED + Fan | [Berrybase.de](https://www.berrybase.de) | ⚠️ NOT USED - incompatible with 3.5" HDDs |
 | **Active Cooler** | Official Pi 5 | [Berrybase.de](https://www.berrybase.de) | CPU cooling |
 | **12V Power Supply** | MeanWell 6.67A | [Berrybase.de](https://www.berrybase.de) | Powers drives |
 | **USB-C Power Supply** | Official 5V 5A | [Berrybase.de](https://www.berrybase.de) | Powers Pi 5 |
@@ -384,13 +384,20 @@ systemctl status roonbridge
 
 #### 2.3 Mount NAS on Mac
 
+**One-time setup:**
 ```bash
 # From Mac Terminal, or use Finder → Go → Connect to Server (⌘K)
 open smb://192.168.100.83/xnas
 # Enter credentials: user=x, pass=aeon
+# Check "Remember this password in my keychain"
 ```
 
-Or add to `/etc/fstab` for auto-mount (advanced).
+**Auto-mount on login (optional):**
+1. System Settings → General → Login Items
+2. Click "+" and add the mounted share
+3. OR: Just connect once with "Remember password" - macOS often auto-reconnects
+
+**Note:** `/etc/fstab` doesn't work reliably for SMB on macOS. Use Login Items instead.
 
 #### 2.4 Configure Roon Storage
 
@@ -400,14 +407,7 @@ Or add to `/etc/fstab` for auto-mount (advanced).
 3. Select the music folders (00_DSD, music, 00_flac_new, etc.)
 4. Roon scans library (takes 1-2 hours for large collections)
 
-#### 2.5 Enable Roon Bridge Endpoint
-
-**In Roon on Mac:**
-1. Settings → Audio
-2. Look for **"DietPi"** (the RPi 5 Roon Bridge)
-3. Click → **Enable**
-4. Rename to preferred name (e.g., "Pi 5 Bridge")
-5. Test playback
+> **Next:** Proceed to **Phase 3** (HDMI audio setup) or **Phase 4** (Room 2 setup).
 
 ---
 
@@ -817,38 +817,42 @@ The Sony BDP-S390 is one of the rare Blu-ray players capable of ripping SACD dis
 
 ## Backup Strategy
 
-### Primary Storage
-- **14TB WD Red Pro** (internal in Radxa HAT)
-- 5-year warranty
-- 24/7 operation rated
+### Current Setup
+
+**Primary Storage:**
+- 2x 14TB WD Red Pro in RAID 1 (mirrored)
+- ~14TB usable capacity
+- 5-year warranty, 24/7 operation rated
+
+**Important:** RAID 1 provides **redundancy** (protects against drive failure), NOT **backup** (protects against deletion/corruption/ransomware). If you accidentally delete files or they get corrupted, both RAID drives are affected.
 
 ### Backup Options
 
-#### Option 1: Second Drive in Radxa HAT
-- Add 2nd drive (10TB, 14TB, or 14TB)
-- Configure automated rsync backup
+#### Option 1: External USB Drive (Current - 14TB Seagate)
+**Recommended approach:**
+- Keep external drive **disconnected** when not backing up
+- Periodic manual sync (weekly/monthly)
 
 **Backup script:**
 ```bash
 #!/bin/bash
-# /usr/local/bin/backup-music.sh
+# Plug in Seagate, then run:
+rsync -avh --delete /mnt/nas/ /mnt/backup/
 
-rsync -avh --delete /mnt/music/ /mnt/backup/music/
-
-# Add to crontab for nightly backup:
-# crontab -e
-# 0 3 * * * /usr/local/bin/backup-music.sh
+# When done, unmount and disconnect drive for offline protection
+umount /mnt/backup
 ```
 
-#### Option 2: External USB Drive (Occasional Backup)
-- Use existing 14TB Seagate
-- Manual sync when needed
-- Cold storage backup
+**Why offline?** Protects against:
+- Accidental deletion
+- Ransomware
+- Filesystem corruption
 
-#### Option 3: Cloud Backup (Long-term)
+#### Option 2: Cloud Backup (For irreplaceable content)
 - Backblaze B2, Wasabi, etc.
-- For irreplaceable music (rare DSD, personal rips)
-- Expensive for 14TB (~€60-100/year)
+- For rare DSD, personal rips, out-of-print recordings
+- Expensive for full 14TB (~€60-100/year)
+- Consider backing up only irreplaceable content (~1-2TB)
 
 ---
 
@@ -870,7 +874,7 @@ rsync -avh --delete /mnt/music/ /mnt/backup/music/
 **RPi 5 NAS benefits:**
 - RAID 1: **14TB mirrored** (data protection)
 - PCIe SATA: **Fast local disk I/O**
-- Low power: **~20W 24/7**
+- Low power: **~21-25W 24/7** (RPi 5 + 2x HDDs)
 - Wired network: **Reliable streaming**
 
 **Limitation:**
@@ -1083,6 +1087,7 @@ ssh root@192.168.100.83 'journalctl -u hdmi-bridge -f'
 **Avoided pitfalls:**
 - RPi 4 PSU: Insufficient power for Pi 5 (need 5V 5A)
 - TerraPi case: Not compatible with Pi 5
+- **Radxa Top Board:** Only works with 2.5" SSDs, NOT 3.5" HDDs (can't stack large drives)
 - Some vendors offer only 12-month warranty (verify 5-year for WD Red Pro)
 
 **B2B purchasing:**
