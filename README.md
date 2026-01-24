@@ -502,20 +502,26 @@ modprobe snd-aloop
 **Create ALSA config:**
 ```bash
 cat > /etc/asound.conf << 'EOF'
+# Loopback device for Roon - with automatic format conversion
 pcm.loopout {
-    type hw
-    card Loopback
-    device 0
-    subdevice 0
+    type plug
+    slave {
+        pcm "hw:Loopback,0,0"
+        format S32_LE
+        rate 192000
+    }
 }
 
 pcm.loopin {
-    type hw
-    card Loopback
-    device 1
-    subdevice 0
+    type plug
+    slave {
+        pcm "hw:Loopback,1,0"
+        format S32_LE
+        rate 192000
+    }
 }
 
+# Default for other apps
 pcm.!default {
     type plug
     slave.pcm "hdmi:CARD=vc4hdmi1,DEV=0"
@@ -534,8 +540,10 @@ EOF
 ```bash
 cat > /usr/local/bin/hdmi-bridge.sh << 'EOF'
 #!/bin/bash
-# Bridge audio from loopback device 0 (captures what plays to device 1) to HDMI
-exec arecord -D hw:Loopback,0,0 -f cd -t raw 2>/dev/null | aplay -D hdmi:CARD=vc4hdmi1,DEV=0 -f cd -t raw 2>/dev/null
+# Bridge audio from loopback to HDMI - supports up to 24-bit/192kHz
+# Uses plug device for automatic format conversion
+exec arecord -D plughw:Loopback,0,0 -f S32_LE -r 192000 -c 2 -t raw 2>/dev/null | \
+     aplay -D plughw:vc4hdmi1,0 -f S32_LE -r 192000 -c 2 -t raw 2>/dev/null
 EOF
 chmod +x /usr/local/bin/hdmi-bridge.sh
 ```
@@ -600,9 +608,10 @@ Roon Core (Mac) → RAAT → Pi 5 Bridge → Loopback → hdmi-bridge → HDMI �
 - `hdmi:` ALSA plugin handles IEC958 format conversion
 - Audio flows: Roon → Loopback → Bridge → hdmi: → HDMI cable → Marantz
 
-**Limitations:**
-- Fixed at CD quality (16-bit/44.1kHz) in current config
-- For higher resolution, modify `-f cd` in bridge script to match source format
+**Supported formats:**
+- Up to **24-bit/192kHz** (high-resolution audio)
+- Automatic format conversion via ALSA plug devices
+- Tested working: 16/44.1, 24/88.2, 24/96, 24/192
 
 **⚠️ Reliability Warning:**
 This Loopback→HDMI workaround is non-standard and may break after:
@@ -1363,8 +1372,12 @@ ssh root@192.168.100.83 'journalctl -u hdmi-bridge -f'
 **Music Library (January 2026):**
 - **Metal:** 64 albums (23 artists) in `/music/metal/`
 - **Exyu:** 241 albums in `/music/exyu/`
+- **Classical/Esoteric FLAC:** 178 albums (314GB) in `/music/classical/esoteric-flac/`
+  - High-res 24-bit/88.2kHz FLAC converted from DSD
+  - Consistent `CD1/`, `CD2/` disc naming
+  - Cover art in album and disc folders
 - **DSD:** Available in `/00_DSD/`, `/00_DSD_NO_ISO/` folders
-- **Total:** 375+ albums imported to Roon
+- **Total:** 550+ albums imported to Roon
 - **Format:** Consistent `Artist/Album (Year)/` structure
 - **Scripts:** Automated cleanup and organization tools created
 
@@ -1392,6 +1405,7 @@ ssh root@192.168.100.83 'journalctl -u hdmi-bridge -f'
 *Document created: December 2024*
 *Updated: January 2025 (architecture correction + HDMI audio solution)*
 *Updated: January 2026 (music library organization + Room 2 touchscreen + Reavon DSD player)*
+*Updated: January 2026 (HDMI bridge upgraded to 24-bit/192kHz support + esoteric-flac library sync)*
 *Hardware: Raspberry Pi 5 (8GB) + Radxa Penta SATA HAT + 2x14TB RAID1*
 *Room 1: Pi 5 (Roon) + Reavon UBR X110 (DSD via USB) → Marantz SR5015 (dual HDMI inputs)*
 *Room 2: RPi 3 + Official 7" touchscreen + USB IR receiver (RoPieeeXL)*

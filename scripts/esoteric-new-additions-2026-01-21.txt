@@ -1,0 +1,84 @@
+# Esoteric SACD Additions - 2026-01-21
+# Complete processing log for new Esoteric releases
+
+## Summary
+
+- **Original albums found:** 7
+- **Removed (not Esoteric):** 1 (Beethoven Overtures - Sony/Tower TDGD-90013)
+- **Final albums processed:** 6
+
+## New Albums (6 total)
+
+1. Beethoven - Violin Concerto & Romances (Szeryng) (Esoteric, SACD)
+2. Bizet - Carmen (Karajan, BP) (Esoteric, 3SACD)
+3. Brahms - Piano Concerto No. 2 (Backhaus) (Esoteric, SACD)
+4. Chopin - Piano Concertos (Zimerman) (Esoteric, 2xDSD) - already DSD
+5. Mahler - Symphony No. 5 (Bernstein, WP) (Esoteric, SACD)
+6. Orff - Carmina Burana (Eugen Jochum) (Esoteric, SACD)
+
+## Processing Completed
+
+### 1. DSD Extraction ✅
+- Extracted from SACD ISO using sacd_extract
+- Output: 24-bit DSD (DSF format)
+- Chopin was already DSD, just copied
+
+### 2. FLAC Conversion ✅
+- Converted DSD to FLAC using ffmpeg
+- Output: 24-bit/88.2kHz FLAC
+- Location: ~/Music/esoteric/flac/ (moved to NAS)
+
+### 3. MusicBrainz Tagging ✅
+- Tagged using beets with MusicBrainz plugin
+- Metadata: artist, composer, album, ISRC, publisher, copyright
+- Files renamed to match MusicBrainz titles
+
+### 4. Locations Updated
+
+**SACD ISOs (backup):**
+/Volumes/Expansion/00_DSD/00_esoteric/
+- All 6 albums copied here
+
+**DSD Files:**
+/Volumes/Untitled/esoteric/
+- All 6 albums moved here (185 total albums on USB)
+
+**FLAC Files:**
+/Volumes/xnas/music/classical/esoteric-flac/
+- NAS already had these, metadata updated (178 total albums)
+
+## README.md Update Needed
+
+When Expansion drive is available, update:
+/Volumes/Expansion/00_DSD/00_esoteric/README.md
+
+Add these 6 albums to the listing:
+- Beethoven - Violin Concerto & Romances (Szeryng) (Esoteric, SACD)
+- Bizet - Carmen (Karajan, BP) (Esoteric, 3SACD)
+- Brahms - Piano Concerto No. 2 (Backhaus) (Esoteric, SACD)
+- Chopin - Piano Concertos (Zimerman) (Esoteric, 2xDSD)
+- Mahler - Symphony No. 5 (Bernstein, WP) (Esoteric, SACD)
+- Orff - Carmina Burana (Eugen Jochum) (Esoteric, SACD)
+
+Update counts:
+- Total Albums: 184 → 190
+- SACD ISO Albums: 166 → 171
+- DSD Albums: 17 → 18 (Chopin Zimerman added)
+- Mixed: 1
+
+## Removed Album
+
+**Beethoven - Overtures (Davis)**
+- Catalog: TDGD-90013 (Sony/Tower Records Japan, NOT Esoteric)
+- Issue: Corrupted ISO - Track 7 (Fidelio Overture) failed extraction (340 bytes)
+- Action: Removed from all locations
+
+## Naming Convention
+
+- `(Esoteric, SACD)` = SACD ISO source file
+- `(Esoteric, DSDe)` = DSD extracted from SACD ISO
+- `(Esoteric, DSD)` = Original DSD files (no ISO source)
+- `(Esoteric)` = FLAC (converted from DSD)
+
+## Date Completed
+2026-01-21

@@ -1,0 +1,423 @@
+{
+  "generated": "2026-01-20T23:08:19.307188",
+  "source": "/Volumes/Expansion/00_DSD/00_esoteric",
+  "target": "/Volumes/Untitled/esoteric",
+  "dry_run": false,
+  "missing_discs": [
+    {
+      "album": "Bizet - Carmen  (Callas 1964, 2012)  (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Bizet - Carmen  (Callas 1964, 2012)  (Esoteric, 2SACD)/Bizet - Carmen disc2.iso",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Bizet - Carmen  (Callas 1964, 2012)  (Esoteric, 2SACD)"
+    },
+    {
+      "album": "Verdi - Aida (Karajan, WP) (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Verdi - Aida (Karajan, WP) (Esoteric, 3SACD)/Verdi - Aida disc2.iso",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Verdi - Aida (Karajan, WP) (Esoteric, 3SACD)"
+    },
+    {
+      "album": "Verdi - Aida (Karajan, WP) (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Verdi - Aida (Karajan, WP) (Esoteric, 3SACD)/Verdi - Aida disc3.iso",
+      "expected_disc": "Disk3",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/4 Greta Operas Karajan&Callas (Esoteric, 9SACD)/Verdi - Aida (Karajan, WP) (Esoteric, 3SACD)"
+    },
+    {
+      "album": "Bach - 6 Brandenburg Concertos (Karl Richter)  (Esoteric, DSDe)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk1",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Bach - 6 Brandenburg Concertos (Karl Richter)  (Esoteric, 2SACD)"
+    },
+    {
+      "album": "Bach - 6 Brandenburg Concertos (Karl Richter)  (Esoteric, DSDe)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Bach - 6 Brandenburg Concertos (Karl Richter)  (Esoteric, 2SACD)"
+    },
+    {
+      "album": "Mozart - 9 Symphonies - Karl Bohm (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)/disc 1.iso",
+      "expected_disc": "Disk1",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)"
+    },
+    {
+      "album": "Mozart - 9 Symphonies - Karl Bohm (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)/disc 2.iso",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)"
+    },
+    {
+      "album": "Mozart - 9 Symphonies - Karl Bohm (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)/disc 3.iso",
+      "expected_disc": "Disk3",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)"
+    },
+    {
+      "album": "Verdi - Requiem - Abbado (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/Verdi - Requiem - Abbado (Esoteric, 2SACD)/disc 1.iso",
+      "expected_disc": "Disk1",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Verdi - Requiem - Abbado (Esoteric, 2SACD)"
+    },
+    {
+      "album": "Verdi - Requiem - Abbado (Esoteric, DSDe)",
+      "source_iso": "/Volumes/Expansion/00_DSD/00_esoteric/Verdi - Requiem - Abbado (Esoteric, 2SACD)/disc 2.iso",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Verdi - Requiem - Abbado (Esoteric, 2SACD)"
+    },
+    {
+      "album": "1. Vorabend - Das Rheingold 1853-54 (2 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/1. Vorabend - Das Rheingold 1853-54 (2 discs)"
+    },
+    {
+      "album": "2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)"
+    },
+    {
+      "album": "2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk3",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)"
+    },
+    {
+      "album": "2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk4",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)"
+    },
+    {
+      "album": "3. Zweiter Tag - Siegfried 1856-71 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/3. Zweiter Tag - Siegfried 1856-71 (4 discs)"
+    },
+    {
+      "album": "3. Zweiter Tag - Siegfried 1856-71 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk3",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/3. Zweiter Tag - Siegfried 1856-71 (4 discs)"
+    },
+    {
+      "album": "3. Zweiter Tag - Siegfried 1856-71 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk4",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/3. Zweiter Tag - Siegfried 1856-71 (4 discs)"
+    },
+    {
+      "album": "4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk2",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)"
+    },
+    {
+      "album": "4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk3",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)"
+    },
+    {
+      "album": "4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)",
+      "source_iso": "ISO not found",
+      "expected_disc": "Disk4",
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)/4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)"
+    }
+  ],
+  "missing_albums": [
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - Piano Concertos Gulda (Gulda) (Esoteric, 2DSD, SACD)",
+      "expected_target": "Beethoven - Piano Concertos Gulda (Gulda) (Esoteric, 2DSD, SACD)"
+    },
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)/CD1",
+      "expected_target": "/Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD1",
+      "parent": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)"
+    },
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)/CD2",
+      "expected_target": "/Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD2",
+      "parent": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)"
+    },
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)/CD3",
+      "expected_target": "/Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD3",
+      "parent": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)"
+    },
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)/CD4",
+      "expected_target": "/Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD4",
+      "parent": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)"
+    },
+    {
+      "source_folder": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)/CD5",
+      "expected_target": "/Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD5",
+      "parent": "/Volumes/Expansion/00_DSD/00_esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)"
+    }
+  ],
+  "fixes_applied": [
+    {
+      "type": "rename_disc",
+      "album": "Mozart - Le Nozze di Figaro (Bohm) (Esoteric, DSDe)",
+      "from": "CD 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Mozart - Le Nozze di Figaro (Bohm) (Esoteric, DSDe)",
+      "from": "CD 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Mozart - Le Nozze di Figaro (Bohm) (Esoteric, DSDe)",
+      "from": "CD 3",
+      "to": "Disk3"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Puccini - La Boheme (Karajan) (Esoteric, DSDe)",
+      "from": "CD 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Puccini - La Boheme (Karajan) (Esoteric, DSDe)",
+      "from": "CD 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Rossini - Il Barbiere di Siviglia (Abbado) (Esoteric, DSDe)",
+      "from": "CD 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Rossini - Il Barbiere di Siviglia (Abbado) (Esoteric, DSDe)",
+      "from": "CD 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Verdi - La Traviata (Kleiber) (Esoteric, DSDe)",
+      "from": "CD 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Verdi - La Traviata (Kleiber) (Esoteric, DSDe)",
+      "from": "CD 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Bizet - Carmen  (Callas 1964, 2012)  (Esoteric, DSDe)",
+      "from": "Carmen (Disc 1)",
+      "to": "Disk1"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/4 Greta Operas Karajan&Callas (Esoteric, DSDe)/Puccini - Tosca (Callas) (Esoteric, DSDe)/disc 1/disc 1",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/4 Greta Operas Karajan&Callas (Esoteric, DSDe)/Puccini - Tosca (Callas) (Esoteric, DSDe)/disc 2/disc 2",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)",
+      "from": "disc 1/Tosca (Disc 1)/",
+      "to": "disc 1/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)",
+      "from": "disc 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)",
+      "from": "disc 2/Tosca (Disc 2)/",
+      "to": "disc 2/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Puccini - Tosca (Callas) (Esoteric, DSDe)",
+      "from": "disc 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "R.Strauss - Salome (Callas) (Esoteric, DSDe)",
+      "from": "disc 1/Salome (Disc 1)/",
+      "to": "disc 1/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "R.Strauss - Salome (Callas) (Esoteric, DSDe)",
+      "from": "disc 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "R.Strauss - Salome (Callas) (Esoteric, DSDe)",
+      "from": "disc 2/Salome (Disc 2)/",
+      "to": "disc 2/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "R.Strauss - Salome (Callas) (Esoteric, DSDe)",
+      "from": "disc 2",
+      "to": "Disk2"
+    },
+    {
+      "type": "rename_disc",
+      "album": "Verdi - Aida (Karajan, WP) (Esoteric, DSDe)",
+      "from": "Aida (Disc 1)",
+      "to": "Disk1"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/5 Great Operas On DG & Decca (2014) (Esoteric, DSDe)/[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)/CD1/CD1",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/5 Great Operas On DG & Decca (2014) (Esoteric, DSDe)/[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)/CD2/CD2",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD1/Mozart_ Die Zauberflo\u0308te/",
+      "to": "CD1/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD1",
+      "to": "Disk1"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD2/Mozart_ Die Zauberflo\u0308te/",
+      "to": "CD2/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD2",
+      "to": "Disk2"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD3/Mozart_ Die Zauberflo\u0308te/",
+      "to": "CD3/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+      "from": "CD3",
+      "to": "Disk3"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSD-90112.13] Weber, Symphonieorchester des Bayerischen Rundfunks, Rafael Kubelik - Der Freischutz (1979) (2014) (Esoteric)",
+      "from": "CD1/Weber_ Der Freischu\u0308tz/",
+      "to": "CD1/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSD-90112.13] Weber, Symphonieorchester des Bayerischen Rundfunks, Rafael Kubelik - Der Freischutz (1979) (2014) (Esoteric)",
+      "from": "CD1",
+      "to": "Disk1"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSD-90112.13] Weber, Symphonieorchester des Bayerischen Rundfunks, Rafael Kubelik - Der Freischutz (1979) (2014) (Esoteric)",
+      "from": "CD2/Weber_ Der Freischu\u0308tz/",
+      "to": "CD2/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSD-90112.13] Weber, Symphonieorchester des Bayerischen Rundfunks, Rafael Kubelik - Der Freischutz (1979) (2014) (Esoteric)",
+      "from": "CD2",
+      "to": "Disk2"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSG-90114.15] Verdi, Coro e Orchestra del Teatro alla Scala di Milano, Tullio Serafin - Il Trovatore (1965) (2014) (Esoteric)",
+      "from": "CD1/Verdi_ Il Trovatore/",
+      "to": "CD1/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSG-90114.15] Verdi, Coro e Orchestra del Teatro alla Scala di Milano, Tullio Serafin - Il Trovatore (1965) (2014) (Esoteric)",
+      "from": "CD1",
+      "to": "Disk1"
+    },
+    {
+      "type": "flatten_nested",
+      "album": "[ESSG-90114.15] Verdi, Coro e Orchestra del Teatro alla Scala di Milano, Tullio Serafin - Il Trovatore (1965) (2014) (Esoteric)",
+      "from": "CD2/Verdi_ Il Trovatore/",
+      "to": "CD2/"
+    },
+    {
+      "type": "rename_disc",
+      "album": "[ESSG-90114.15] Verdi, Coro e Orchestra del Teatro alla Scala di Milano, Tullio Serafin - Il Trovatore (1965) (2014) (Esoteric)",
+      "from": "CD2",
+      "to": "Disk2"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/Bach - Sonatas and Partitas for Solo Violin (Nathan Milstein) (Esoteric, DSDe)/Disc 2/Disc 2",
+      "album": "Disc 2"
+    },
+    {
+      "type": "remove_symlink",
+      "path": "/Volumes/Untitled/esoteric/Tchaikovsky - Symphony No. 4, Stravinsky - The Firebird (Ozawa, OdP) (Esoteric, DSDe)/Disc 1/Disc 1",
+      "album": "Disc 1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "1. Vorabend - Das Rheingold 1853-54 (2 discs)",
+      "from": "Disc 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)",
+      "from": "Disc 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "3. Zweiter Tag - Siegfried 1856-71 (4 discs)",
+      "from": "Disc 1",
+      "to": "Disk1"
+    },
+    {
+      "type": "rename_disc",
+      "album": "4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)",
+      "from": "Disc 1",
+      "to": "Disk1"
+    }
+  ],
+  "summary": {
+    "albums_scanned": 178,
+    "albums_ok": 176,
+    "missing_discs_count": 20,
+    "missing_albums_count": 6,
+    "nested_folders_fixed": 11,
+    "disc_renames": 26,
+    "symlinks_removed": 6,
+    "covers_copied": 0
+  }
+}

@@ -1,0 +1,3207 @@
+{
+  "source_path": "/Volumes/Expansion/00_DSD/00_esoteric",
+  "target_path": "/Volumes/Untitled/esoteric",
+  "albums": [
+    {
+      "name": "4 Great Operas (Esoteric, 9SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Mozart - Le Nozze di Figaro (Bohm) (Esoteric, 3xSACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2",
+            "Disk3"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Puccini - La Boheme (Karajan) (Esoteric, 2xSACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Rossini - Il Barbiere di Siviglia (Abbado) (Esoteric, 2xSACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Verdi - La Traviata (Kleiber) (Esoteric, 2xSACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "4 Greta Operas Karajan&Callas (Esoteric, 9SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Bizet - Carmen  (Callas 1964, 2012)  (Esoteric, 2SACD)",
+          "expected_discs": 1,
+          "source_isos": [
+            "Bizet - Carmen disc1.iso",
+            "Bizet - Carmen disc2.iso"
+          ],
+          "target_discs": [
+            "Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 1 of 2"
+          ]
+        },
+        {
+          "name": "Puccini - Tosca (Callas) (Esoteric, 2SACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        },
+        {
+          "name": "R.Strauss - Salome (Callas) (Esoteric, 2SACD)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Verdi - Aida (Karajan, WP) (Esoteric, 3SACD)",
+          "expected_discs": 1,
+          "source_isos": [
+            "Verdi - Aida disc1.iso",
+            "Verdi - Aida disc2.iso",
+            "Verdi - Aida disc3.iso"
+          ],
+          "target_discs": [
+            "Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 2 of 3"
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "5 Great Operas On DG & Decca (2014) (Esoteric, 9SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "[ESSD-90109.10.11] Mozart, Wiener Philharmoniker, Sir Georg Solti - Die Zauberflote (1969) (2014) (Esoteric)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2",
+            "Disk3"
+          ],
+          "issues": []
+        },
+        {
+          "name": "[ESSD-901117] Leoncavallo, Coro e Orchestra del Teatro alla Scala di Milano, Herbert von Karajan - I Pagliacci (1965) (2014) (Esoteric)",
+          "expected_discs": 1,
+          "source_isos": [
+            "Pagliacci.iso"
+          ],
+          "target_discs": [
+            "Leoncavallo_ I Pagliacci"
+          ],
+          "issues": []
+        },
+        {
+          "name": "[ESSD-90112.13] Weber, Symphonieorchester des Bayerischen Rundfunks, Rafael Kubelik - Der Freischutz (1979) (2014) (Esoteric)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        },
+        {
+          "name": "[ESSD-90116] Mascagni, Coro e Orchestra del Teatro alla Scala di Milano, Herbert von Karajan - Cavalleria Rusticana (1965) (2014) (Esoteric)",
+          "expected_discs": 1,
+          "source_isos": [
+            "Cavalleria Rusticana.iso"
+          ],
+          "target_discs": [
+            "Mascagni_ Cavalleria Rusticana"
+          ],
+          "issues": []
+        },
+        {
+          "name": "[ESSG-90114.15] Verdi, Coro e Orchestra del Teatro alla Scala di Milano, Tullio Serafin - Il Trovatore (1965) (2014) (Esoteric)",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "Disk1",
+            "Disk2"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "6 Queens Of Jazz Vocal (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "90143 Ella Fitzgerald-Like Someone In Love",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "90144 Anita O'Day-Anita Sings The Most",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "90145 Carmen McRae-After Glow",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "90146 Peggy Lee-Black Coffee",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "90147 Helen Merrill with Clifford Brown",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "90148 Monica Zetterlund With Bill Evans-Waltz For Debby",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Bach - 6 Brandenburg Concertos (Karl Richter)  (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Bach - 6 Brandenburg Concertos (Karl Richter) CD1.iso",
+        "Bach - 6 Brandenburg Concertos (Karl Richter) CD2.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": [
+        "MISSING_DISCS: 1 of 2"
+      ]
+    },
+    {
+      "name": "Bach - Goldberg-Variationen (Leonhardt) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Gustav Leonhardt - J.S.Bach Goldberg-Variationen, BWV 988.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bach - Notenbuchilein Fur Anna Magdalena Bach (Stubbs) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "TRAGICOMEDIA STEPHEN STUBBS, Director - JOHANN SEBASTIAN BACH NOTENBUCHLEIN FUR ANNA MAGDALENA BA.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bach - Overtures (Richter, MBO)  (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bach - Sonatas and Partitas for Solo Violin (Nathan Milstein) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "J.S.Bach - Sonatas and Partitas for Solo Violin (Disc 1).iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "J.S.Bach - Sonatas and Partitas for Solo Violin (Disc 2).iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Bach - The Violin Concertos (Szeryng, Hasson) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Henryk Szeryng, Maurice Hasson, Academy of St Martin in the - J.S.Bach The Violin Concertos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bach - Toccata, Partita No.2, English Suite No.2 (Argerich) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Martha Argerich - Bach Toccata, Partita No.2, English Suite No.2.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bartok - Concerto for Orchestra - Karajan (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan Berliner Philharmoniker - BARTOK CONCERTO FOR ORCHESTRA & MUSIC FOR STRINGS, PERCUSS.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bartok - Concerto for Orchestra, Dance Suite (Solti, CSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Bartok_ Concerto for Orchestra, Dance Suite, Music for Strings, Percussion and Celesta.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven & Dvorak - String Quartets (Alban Berg Quartett) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Beethoven & Dvorak_ String Quartets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Eroica Variations (Gilels) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Emil Gilels - Beethoven Eroica Variations, Piano Sonatas Nos.21 & 23.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Piano Concertos -Pollini, Abbado (2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "No.1 & 2",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "No.3 & 4",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "No.5",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Piano Concertos Gulda (Gulda) (Esoteric, 2DSD, SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Piano Sonatas Nos. 21 & 23, Eroica Variations (Gilels) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Emil Gilels - Beethoven Eroica Variations, Piano Sonatas Nos.21 & 23.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Piano Sonatas Nos. 28 & 29 - Maurizio Pollini  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Maurizio Pollini - Beethoven Piano Sonatas Nos.28 & 29 Hammerklavier.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Piano Sonatas Nos. 30, 31 & 32 - Pollini (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Maurizio Pollini - Beethoven Piano Sonatas Nos.30, 31 & 32.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Symphonies Nos. 1-9 (Wand, NDR) (Esoteric, 5SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Art_box&booklet",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - Symphonies Nos. 1-9 (Wand, NDR) (Esoteric, DSDe)/Art_box&booklet"
+          ]
+        },
+        {
+          "name": "Disc 1 Symphonies Nos.1 & 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Symphonies Nos.1 & 3.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2 Symphonies Nos.2 & 6",
+          "expected_discs": 1,
+          "source_isos": [
+            "Symphonies Nos.2 & 6.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 3 Symphonies Nos.4 & 5",
+          "expected_discs": 1,
+          "source_isos": [
+            "Symphonies Nos.4 & 5.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 4 Symphonies Nos.7 & 8",
+          "expected_discs": 1,
+          "source_isos": [
+            "Symphonies Nos.7 & 8.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 5 Symphony No.9",
+          "expected_discs": 1,
+          "source_isos": [
+            "Symphony No.9.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Symphony No. 6 - Karl Bohm (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Karl Bohm, Wiener Philharmoniker - Beethoven Symphony No.6 Pastorale.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Symphony No. 9 (Bernstein, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Beethoven_ Symphony No.9.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Symphony Nos. 5 & 7- Carlos Kleiber (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Carlos Kleiber, Wiener Philharmoniker - Beethoven Symphonies Nos.5 & 7.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - The 9 Symphonies (Bruggen) (Esoteric, 5SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Beethoven_ Symphonies Nos.1 & 2.iso"
+          ],
+          "target_discs": [
+            "Beethoven_ Symphonies Nos.1 & 2; Overtures _Egmont_ & _Coriolan_"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Beethoven_ Symphonies Nos.3 _Eroica_ & 8.iso"
+          ],
+          "target_discs": [
+            "Beethoven_ Symphonies Nos.3 _Eroica_ & 8"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Beethoven_ Symphonies Nos.4 & 6 _Pastorale_.iso"
+          ],
+          "target_discs": [
+            "Beethoven_ Symphonies Nos.4 & 6 _Pastorale_"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc4",
+          "expected_discs": 1,
+          "source_isos": [
+            "Beethoven_ Symphonies Nos.5 & 7.iso"
+          ],
+          "target_discs": [
+            "Beethoven_ Symphonies Nos.5 & 7"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc5",
+          "expected_discs": 1,
+          "source_isos": [
+            "Beethoven_ Symphony No.9 _Choral_.iso"
+          ],
+          "target_discs": [
+            "Beethoven_ Symphony No.9 _Choral_"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - The Symphonies (Kempe) (Esoteric, 5xSACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "CD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rudolf Kempe Munich Philharmonic Orchestra - BEETHOVEN COMPLETE 9 SYMPHONIES.iso"
+          ],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD1"
+          ]
+        },
+        {
+          "name": "CD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rudolf Kempe Munich Philharmonic Orchestra - BEETHOVEN COMPLETE 9 SYMPHONIES.iso"
+          ],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD2"
+          ]
+        },
+        {
+          "name": "CD3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rudolf Kempe Munich Philharmonic Orchestra - BEETHOVEN COMPLETE 9 SYMPHONIES.iso"
+          ],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD3"
+          ]
+        },
+        {
+          "name": "CD4",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rudolf Kempe Munich Philharmonic Orchestra - BEETHOVEN COMPLETE 9 SYMPHONIES.iso"
+          ],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD4"
+          ]
+        },
+        {
+          "name": "CD5",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rudolf Kempe Munich Philharmonic Orchestra - BEETHOVEN COMPLETE 9 SYMPHONIES.iso"
+          ],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Beethoven - The Symphonies (Kempe) (Esoteric, DSDe)/CD5"
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Beethoven - Violin Sonatas Nos. 5 & 9 (Oistrakh, Oborin) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "David Oistrakh, Lev Oborin - Beethoven Violin Sonatas No.9 Kreutzer & No.5 Spring.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Beethoven -Egmont & Symphony No.5 (Szel) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Berlioz - Symphonie Fantastique (Munch, OdP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Charles Munch Orchestre De Paris - BERLIOZ SYMPHONIE FANTASTIQUE.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bizet - L'Arlesienne Suites Nos. 1 & 2, Carmen Suite (Cluyten) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "BIZET L'ARLESIENNE SUITE NO.1 & 2, CARMEN SUITE.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bizet - L'Arle\u0301sienne Suites Nos. 1 & 2, Carmen Suite No. 1 - Gounod - Faust (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Bizet_ L'Arlesienne Suite Nos.1 & 2, Carmen Suite No.1.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Blue Note 6 Great Jazz  (Esoteric, 6SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Art Blakey and The Jazz Messengers - Moanin'",
+          "expected_discs": 1,
+          "source_isos": [
+            "Art Blakey and The Jazz Messengers - Moanin'.iso"
+          ],
+          "target_discs": [
+            "Moanin'"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Cannonball Adderley - Somethin' Else",
+          "expected_discs": 1,
+          "source_isos": [
+            "Cannonball Adderley - Somethin' Else.iso"
+          ],
+          "target_discs": [
+            "Somethin' Else"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Herbie Hancock - Maiden Voyage",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbie Hancock - Maiden Voyage.iso"
+          ],
+          "target_discs": [
+            "Maiden Voyage"
+          ],
+          "issues": []
+        },
+        {
+          "name": "John Coltrane - Blue Train",
+          "expected_discs": 1,
+          "source_isos": [
+            "John Coltrane - Blue Train.iso"
+          ],
+          "target_discs": [
+            "Blue Train"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Sonny Clark - Cool Struttin'",
+          "expected_discs": 1,
+          "source_isos": [
+            "Sonny Clark - Cool Struttin'.iso"
+          ],
+          "target_discs": [
+            "Cool Struttin'"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Sonny Rollins - Sonny Rollins Vol. 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Sonny Rollins - Sonny Rollins Vol. 2.iso"
+          ],
+          "target_discs": [
+            "Sonny Rollins Vol. 2"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Borodin -Symphony No.2 & Glazunov-The Seasons (Ansermet) (2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - 21 Hungarian Dances (Abbado)  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Claudio Abbado, Wiener Philharmoniker - Brahms 21 Hungarian Dances.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Concerto for Violin and Orchestra in D (Oistrakh) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "David Oistrakh, Cleveland Orchestra, George Szell - Brahms Concerto for Violin and Orchestra in D Op.77.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Piano Concerto No. 1 (Grimaud) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "HE\u0301LE\u0300NE GRIMAUD, piano STAATSKAPELLE BERLIN KURT SANDE - JOHANNES BRAHMS Piano Concerto No.1 in D minor, Op.15.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Piano Concertos Nos. 1 & 2 (Pollini, Bohm, Abbado, WP) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Brahms_ Piano Concerto No.1.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Brahms_ Piano Concerto No.2.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Piano Quartet No. 1, Schumann - Fantasiestucke Op. 88 (Argerich, Kremer, Bashmet, Maisky) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Brahms_ Piano Quartet No. 1.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Symphony No. 1 (Bohm) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Karl Bohm, Berliner Philharmoniker - Brahms Symphony No. 1.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Symphony No.1 (Munch, OdP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Brahms_ Symphony No.1.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Symphony No.2 (Barbirolli) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "BRAHMS SYMPHONY NO.2 ETC.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Symphony No.2 (Monteux, LSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Brahms_ Symphony No.2, Academic Festival Overture, Tragic Overture.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - Symphony No.4 (Kleiber, VPO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Deutsche Grammophon GmbH, Hamburg - Johannes Brahms Symphony No. 4.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Brahms - The 4 Symphonies, Claudio Abbado (2018) (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "art",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [],
+          "issues": [
+            "TARGET_MISSING: /Volumes/Untitled/esoteric/Brahms - The 4 Symphonies, Claudio Abbado (2018) (Esoteric, DSDe)/art"
+          ]
+        },
+        {
+          "name": "Claudio Abbado - Brahms SACD 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado, Berliner Philharmoniker - Brahms The 4 Symphonies, Overtures.iso"
+          ],
+          "target_discs": [
+            "Brahms_ Symphony No.1, Academic Festival Overture, Tragic Overture"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Claudio Abbado - Brahms SACD 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado, Berliner Philharmoniker - Brahms The 4 Symphonies, Overtures.iso"
+          ],
+          "target_discs": [
+            "Brahms_ Symphony No.2, Haydn Variations"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Claudio Abbado - Brahms SACD 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado, Berliner Philharmoniker - Brahms The 4 Symphonies, Overtures.iso"
+          ],
+          "target_discs": [
+            "Brahms_ Symphonies Nos.3 & 4"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 4 - Karajan (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan Berliner Philharmoniker - BRUCKNER SYMPHONY NO.4 'ROMANTIC'.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 5 (Jochum, CO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Bruckner_ Symphony No.5.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 7 (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan - Symphony No. 7 in E Major (Robert Haas Edition) (2011 - Rem.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 8 (Haitink, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Bruckner_ Symphony No.8.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 8 - Karajan (Esoteric,SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan, Wiener Philharmoniker - Bruckner Symphony No.8.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Bruckner - Symphony No. 9 - Giulini (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Carlo Maria Giulini, Wiener Philharmoniker - Bruckner Symphony No.9.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chick Corea - Now He Sings, Now He Sobs (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Now He Sings, Now He Sobs.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin & Liszt Piano Concertos (Argerich, Abbado) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Martha Argerich, London Symphony Orchestra, Claudio Abbado - Chopin & Liszt Piano Concertos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - 4 Ballades, Barcarolle, Fantasie (Zimerman) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Krystian Zimerman - Chopin 4 Ballades, Barcarolle, Fantasie.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - Etudes Op. 10 & Op. 25 (Pollini) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Chopin_ Etudes Op.10 & Op.25.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - Nocturnes (Pires) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Chopin_ Nocturnes.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - Piano Sonatas Nos. 2 & 3 (Argerich) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Martha Argerich - Chopin Piano Sonatas Nos.2 & 3, Andante spianato et Grande.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - Piano Sonatas Nos. 2 & 3 - Martha Argerich (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Chopin - Polonaises (Pollini) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Chopin_ Polonaises.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Debussy & Ravel - Orchestral Works (Dutoit, OSdM) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Debussy & Ravel_ Orchestral Works.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Debussy - Preludes Volume 1 (1971), Children's Corner (1978) (Michelangeli) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Arturo Benedetti Michelangeli - Debussy Pre\u0301ludes I, Children's Corner.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak & Beethoven - Cello Concertos (Szell, Gulda, Fournier) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Pierre Fournier, George Szell, Berliner Philharmoniker, Fri - Dvorak Cello Concerto.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak - Slavonic Dances Opp. 46 & 72 - Kubelik (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rafael Kubelik, Symphonie-Orchester des Bayerischen Rundfun - Dvorak Slavonic Dances Opp.46 & 72.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak - Symphony 9 From the New World (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Antonin Dvorak - Symphony 9 From the New World.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak - Symphony No. 9, Schubert - Symphony No. 8 (Klemperer, PO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Dvorak_ Symphony No.9 _From the New World_.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak - Symphony No.8; Brahms - Symphony No.3 (Karajan) (1962, 2011) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Dvorak Symphony No. 8.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Dvorak -Symphony No.8 & 9 (Karajan) (2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Elgar - Cello Concerto & Enigma Variations (J. du Pre, Barbirolli, LSO & PO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Elgar_ Cello Concerto, _Enigma_ Variations, Pomp and Circumstance Marches.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Evgeny Zarafiants plays Beethoven & Chopin (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "ESOTERIC ESSO-10002_SACD.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Falla - The Three Cornered Hat -Ansermet  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Decca Music Group Limited - Manuel de Falla El Sombrero de Tres Picos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Faure - Requiem, Op,48 (Fischer-Dieskau, Cluytens) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Andre Cluytens - FAURE REQUIEM.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Franck - Symphony; Schumann - Symphony No.4 (Klemperer) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "FRANK SYMPHONY IN D MINOR & SCHUMANN SYMPHONY NO.4.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Gershwin - Previn Plays Gershwin (Previn, LSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Previn Plays Gershwin _Rhapsody in Blue, Concerto in F, An American in Paris_.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Grieg - Peer Gynt, Holberg Suite - de Waart, Marriner (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Edo de Waart, Sir Neville Marriner - Grieg Peer Gynt, Holberg Suite.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Grieg, Schumann - Piano Concertos (Richter, Matacic) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Grieg & Schumann_ Piano Concertos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Handel - The Wind Instrument Sonatas (Bruggen) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Frans Bruggen - Handel The Wind Instruments Sonatas.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Handel - Water Music & Fireworks Music (Gardiner, English Baroque Soloists)  (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Haydn - 8 Symphonies - Frans Bruggen (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "SACD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Frans Bruggen, Orchestra of the 18th Century - Haydn 8 Symphonies Nos.88, 92 Oxford , 94 Surprise , 96.iso"
+          ],
+          "target_discs": [
+            "Haydn_ Symphonies Nos.88, 92 _Oxford_ & 94 _Surprise_"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Frans Bruggen, Orchestra of the 18th Century - Haydn 8 Symphonies Nos.88, 92 Oxford , 94 Surprise , 96.iso"
+          ],
+          "target_discs": [
+            "Haydn_ Symphonies Nos.96 _Miracle_, 100 _Military_ & 101 _The Clock_"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Frans Bruggen, Orchestra of the 18th Century - Haydn 8 Symphonies Nos.88, 92 Oxford , 94 Surprise , 96.iso"
+          ],
+          "target_discs": [
+            "Haydn_ Symphonies Nos.103 _Drum Roll_ & 104 _London_"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Haydn, Mozart - String Quartets - Alban Berg Quartet (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Alban Berg Quartet - String Quartets, Haydn Op 76 Nos. 3 Emperor & Mozart No.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Holst - The Planets (Boult) (1967, 2012) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sir Adrian Boult New Philharmonia Orchestra - Holst The Planets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Holst - The Planets, Grieg - Music from Peer Gynt Suite No. 1 & 2 (Karajan, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Holst_ The Planets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Homage to Gerald Moore (Moore, de los Angeles, Schwarzkopf, Fischer-Dieskau) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Homage to Gerald Moore.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Homage to Gerald Moore, Schubert_ Winterreise.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Impulse! 6 Great Jazz SACD Collection (2015) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "ESSI-90133 JOHN COLTRANE QUARTET - BALLADS",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "ESSI-90134 SONNY ROLLINS - ON IMPULSE!",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "ESSI-90135 ROY HAYNES QUARTET - OUT OF THE AFTERNOON",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "ESSI-90136 OLIVER NELSON - THE BLUES AND THE ABSTRACT TRUTH",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "ESSI-90137 COUNT BASIE AND THE KANSAS CITY 7",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "ESSI-90138 JOHN COLTRANE AND JOHNNY HARTMAN",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Janacek & Hindemith - Orchestral Works (Abbado, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Janacek & Hindemith_ Orchestral Works.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Kaneko - Chopin - Liszt - Debussy - Bach - Piano Pieces (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Chopin, Liszt, Debussy Piano Peaces.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Kaneko - Chopin - Liszt - Debussy - Bach - Piano Pieces 2 (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Miyuji Kaneko - Chopin, Liszt, Debussy, J.S.Bach, Piano Pieces 2.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Lehar - Die Lustige Witwe (Karajan, BP) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "DISC01",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Berliner Philharmoniker - Lehar Die lustige Witwe.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "DISC02",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Berliner Philharmoniker - Lehar Die lustige Witwe.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Mahler -  Symphony No.5 (Barbirolli, NPO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sir John Barbirolli - MAHLER SYMPHONY NO.5.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Das Lied Von Der Erde (Klemperer) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Philharmonia Orchestra, New Philharmonia Orchestra, Otto Kl - Mahler Das Lied von der Erde.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Das Lied von der Erde, Ruckert-Lieder (Walter, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mahler_ Das Lied von der Erde, Ruckert-Lieder.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphonies Nos. 2 & 4 - Abbado (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "SACD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado - Mahler Symphonies Nos. 2 & 4.iso"
+          ],
+          "target_discs": [
+            "Mahler_ Symphonies Nos. 2 & 4"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado - Mahler Symphonies Nos. 2 & 4.iso"
+          ],
+          "target_discs": [
+            "Mahler_ Symphony No. 2"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphony No. 4 (Solti) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sir Georg Solti, Concertgebouw Orchestra of Amsterdam - Mahler Symphony No.4.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphony No. 9 (Bernstein) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mahler_ Symphony No. 9.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphony No.1 (Tennstedt, CSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Klaus Tennstedt Chicago Symphony Orchestra - MAHLER SYMPHONY NO.1 'TITAN'.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphony No.3 & 1 (Abbado, BPO) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado, Berliner Philharmoniker - Mahler Symphonies Nos.3 & 1.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Claudio Abbado, Berliner Philharmoniker - Mahler Symphonies Nos.3 & 1.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Mahler - Symphony No.6 (Boulez, WP)  (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Marisa Robles - Harp Concertos of the Eighteenth Century (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Marisa Robles - Harp Concertos and Variations (Handel, Boieldieu, Dittersdo.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mendelssohn - Silvesterkonzert 1995 (Abbado, VPO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "CLAUDIO ABBADO BERLINER PHILHARMONIKER - SILVESTERKONZERT 1995 MENDELSSOHN EIN SOMMERNACHTSTRAUM SYM.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mendelssohn - Violin Concerto, Lalo - Symphonie Espagnole (Grumiaux) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mendelssohn, Schumann - Symphony No.3 - Klemperer (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Otto Klemperer - Mendelssohn & Schumann Symphony No.3.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Michelangeli plays Debussy (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Arturo Benedetti Michelangeli - Debussy Pre\u0301ludes I, Children's Corner.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - 6 Piano Concertos - (Tate, Uchida, ECO) (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Piano Concertos Nos.21 & 25, Concert Rondo K.382.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Piano Concertos Nos.22 & 23.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Piano Concertos Nos.26 & 27.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Mozart - 9 Symphonies - Karl Bohm (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "disc 1.iso",
+        "disc 2.iso",
+        "disc 3.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": [
+        "MISSING_DISCS: 2 of 3"
+      ]
+    },
+    {
+      "name": "Mozart - Concerto For Flute & Harp (Paillard) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "WOLFGANG AMADEUS MOZART Concerto for Flute and Harp & Con.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Don Giovanni (Karajan, BP) (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Don Giovanni _Disc 1_.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Don Giovanni _Disc 2_.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Mozart_ Don Giovanni _Disc 3_.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Flute & Harp Concerto, Clarinet Concerto (Rampal, Laskine, Lancelot) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "WOLFGANG AMADEUS MOZART Concerto for Flute and Harp & Con.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Flute Quartets (B.Kuijken, S.Kuijken, van Dael, W.Kuijken) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mozart _ Flute Quartets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Flute Quartets - Kuijken Quartet (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Kuijken Quartet - Mozart Flute Quartets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Opera Arias (L.Pop, Slatkin) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mozart - Opera Arias (Munich Radio Orchestra, Slatkin, Lucia Popp).iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Piano Concertos Nos. 23_26 (Harnoncourt, Gulda, RCO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "WOLFGANG AMADEUS MOZART Piano Concerto No.23 & Piano Conc.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Piano Concertos Nr.20&21 (Abbado, Gulda) (1974, 2018) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Friedrich Gulda, Wiener Philharmoniker, Claudio Abbado - Mozart Piano Concertos Nos.20 & 21.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Piano Sonatas K.331, Maria Joao Pires (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Maria Joao Pires - Mozart Piano Sonatas K.310, 331, 457 & 545.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Requiem & Ave verum corpus (Muti, BPO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Riccardo Muti Berliner Philharmoniker - Mozart Requiem etc.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Requiem (Bohm, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mozart_ Requiem.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Symphonies Nos. 35, 40 & 41 (Kubelik) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rafael Kubelik - MOZART Symphonies No.35 Haffner ,No.40 & No.41 Jupiter.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart - Violin Concertos Nos. 3 & 5 - Grumiaux (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Arthur Grumiaux - Mozart Violin Concertos Nos. 3 & 5.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart \u2013 Piano Concertos Nos. 20 & 27 (Curzon, Britten) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Decca Music Group Limited - Wolfgang Amadeus Mozart Piano Concertos No. 20 K. 466 & No.27 K.595.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart, Brahms - Clarinet Quintets (Wlach, Vienna Konzerthaus Quartet) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mozart, Brahms_ Clarinet Quintets.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mozart, Franck, Brahms - Violin Sonatas (Dumay, Pires) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Mozart, Franck, Brahms_ Violin Sonatas.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Mussorgsky - Pictures At An Exhibition, Night on the Bare Mountain (Ansermet) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Ernest Ansermet, L'Orchestre de la Suisse Romande - Mussorgsky Pictures at an Exhibition.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Prokofiev - Alexander Nevsky, Scythian Suite, Lieutenant Kije (Abbado) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Prokofiev_ Alexander Nevsky, Scythian Suite, Lieutenant Kije.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Puccini - Tosca (Karajan, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Puccini_ Tosca _Act 1_.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Puccini_ Tosca _Act 2 & 3_.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Puccini - Turandot (Karajan, WP) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "1",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "2",
+          "expected_discs": 1,
+          "source_isos": [],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "R.Strauss - Also sprach Zarathustra, Till Eulenspiegel, Salome (Karajan)  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan, Wiener Philharmoniker - R.Strauss Also sprach Zarathustra, Till Eulenspiegel, Salo.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "R.Strauss - Der Rosenkavalier op. 35 (Karajan) (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - R.Strauss Der Rosenkavalier disc1.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - R.Strauss Der Rosenkavalier disc2.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - R.Strauss Der Rosenkavalier disc3.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "R.Strauss - Don Quixote, Till Eulenspiegels lustige Streiche, Don Juan (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Strauss_ Don Quixote, Till Eulenspiegels lustige Streiche, Don Juan.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "R.Strauss - Ein Heldenleben, Tod und Verklarung (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Strauss_ Ein Heldenleben.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "R.Strauss - Eine Alpensinfonie, Metamorphosen (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Strauss_ Eine Alpensinfonie, Metamorphosen.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Rachmaninov - The Four Piano Concertos (Previn, Ashkenazy, LSO) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rachmaninov_ Piano Concertos Nos.1 & 4, Rhapsody on a Theme of Paganini.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Rachmaninov_ Piano Concertos Nos.2 & 3.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Ravel - Bolero etc. (Boulez, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Ravel_ Bolero, Ma Mere l'Oye, Rapsodie espagnole, Une Barque sur l'ocean, Alborada del Gracioso.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Respighi - Feste Romane, Pini di Roma (Maazel, CO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Respighi_ Feste Romane, Pini di Roma.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Respighi - Fontane Di Roma, Pini Di Roma - Karajan (1978, 2017) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "ESOTERIC ESSG90162 SACD.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Rimsky-Korsakov - Scheherazade (Ansermet) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Ansermet, L'Orchestre de la Suisse Romande - Rimsky-Korsakov Scheherazade.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Rimsky-Korsakov - Scheherazade, Mussorgsky - Pictures at an Exhibition (Previn, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rimsky-Korsakov_ Scheherazade.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Rodrigo - Concierto de Aranjuez etc. (Behrend, Peters, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rodrigo_ Concierto de Aranjuez, etc.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Rossini - Overtures (Chailly, NPO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rossini_ Overtures.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Saint-Saens - Organ Symphony - Charles Dutoit (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Charles Dutoit, Orchestre symphonique de Montreal - Saint-Saens Organ Symphony.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schoenberg, Berg, Webern (Karajan, BP)  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Deutsche Grammophon GmbH, Hamburg - Schoenberg, Berg, Webern Neue Wiener Schule.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Arpeggione Sonata, Schumann - Fantasiestucke Op. 73 (Argerich, Maisky) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Martha Argerich, Mischa Maisky - Franz Schubert Arpeggione Sonata.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Impromptus D.899 & D.935 (Pires) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Schubert_ Impromptus D.899 & D.935.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Piano Quintet (Brendel) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Alfred Brendel, Members of the Cleveland Quartet, James van - Schubert Piano Quintet Trout , Wanderer-Fantasie.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Piano Sonata D.959 & 960 - Pollini (2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Sinfonie Nr. 9 (Kempe, MP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Rudolf Kempe, Munchner Philharmoniker - Schubert Sinfonie Nr.8(9) C-dur, D944 Die Grosse.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Sonata for Arpeggione etc. (Rostropovich, Britten) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Schubert_ Arpeggione Sonata.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - String Quartets Nos.13 & 14 - Quartetto Italiano (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Quartetto Italiano - Schubert String Quartets Nos.13 & 14.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Symphony Nos. 3 & 8 (Kleiber) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Carlos Kleiber, Wiener Philharmoniker - Schubert Symphonies Nos. 3 & 8 Unfinished.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schubert - Trout Quintet, Wanderer Fantasy (Richter, Borodin Quartet) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sviatoslav Richter - Schubert Piano Quintet The Trout , Wandererfantasie-001.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Schumann, Grieg - Piano Concertos (Abbado, Previn, Brendel, Lupu, LSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Schumann & Grieg_ Piano Concertos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Shostakovich - Symphony No.5 & 9  (Haitink, RCO & LPO)  (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Sibelius & Bruch Violin Concertos, Kyung-Wha Chung (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Kyung-Wha Chung - Sibelius & Bruch Violin Concertos, etc.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Sibelius - Symphony No.1 in E Minor (Maazel, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Decca Music Group Limited - Jean Sibelius Symphony No. 1.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Sibelius - Symphony No.2, The Swan of Tuonela, Finlandia (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Herbert von Karajan - SIBELIUS SYMPHONY NO.2 ETC.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Smetana - Ma Vlast (Kubelik, BSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Smetana_ Ma\u0301 Vlast.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Strauss - Die Fledermaus (Kleiber, BS) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "DISC01",
+          "expected_discs": 1,
+          "source_isos": [
+            "Carlos Kleiber, Bayerisches Staatsorchester - Strauss Die Fledermaus.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "DISC02",
+          "expected_discs": 1,
+          "source_isos": [
+            "Carlos Kleiber, Bayerisches Staatsorchester - Strauss Die Fledermaus.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Stravinsky - Firebird - Rite of Spring (Boulez, CSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Boulez Stravinsky.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Stravinsky - Le Sacre du Printemps (Gergiev, KO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Stravinsky_ Le Sacre du printemps.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Stravinsky - Petrouchka (Abbado, LSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Claudio Abbado, London Symphony Orchestra - Stravinsky Pe\u0301trouchka, Pulcinella.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Stravinsky - Petrouchka, Prokofiev - Piano Sonata No. 7 - Pollini (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Maurizio Pollini - Stravinsky Petrouchka.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky & Dvorak - Serenades for Strings - Colin Davis (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sir Colin Davis - Tchaikovsky & Dvorak Serenades for Strings.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky & Glazunov - Violin Concertos (Vengerov, Abbado) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "MAXIM VENGEROV, violin BERLINER PHILHARMONIKER CLAUDIO ABBA - TCHAIKOVSKY & GLAZUNOV VIOLIN CONCERTOS.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky & Rachmaninov - Piano Concertos (Richter) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Sviatoslav Richter, Karajan, Stanislaw Wislocki - Tchaikovsky & Rachmaninov Piano Concertos.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Piano Concerto & 1812 Overture - M.Argerich, Abbado (2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Swan Lake (Fistoulari, COA) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Decca Music Group Limited - Peter Tchaikovsky Scenes from Swan Lake.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Swan Lake, Nutcracker, Sleeping Beauty (Karajan, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Tchaikovsky_ Swan Lake, Nutcracker, Sleeping Beauty.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Symphonies Nos. 4, 5 & 6  (Karajan) (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "SACD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - Tchaikovsky Symphonies Nos.4, 5 & 6 Pathetique.iso"
+          ],
+          "target_discs": [
+            "Tchaikovsky_ Symphony No.4"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - Tchaikovsky Symphonies Nos.4, 5 & 6 Pathetique.iso"
+          ],
+          "target_discs": [
+            "Tchaikovsky_ Symphony No.5"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Herbert von Karajan, Wiener Philharmoniker - Tchaikovsky Symphonies Nos.4, 5 & 6 Pathetique.iso"
+          ],
+          "target_discs": [
+            "Tchaikovsky_ Symphony No.6 _Pathetique_"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Symphonies Nos. 4, 5 & 6 (Mravinsky) (Esoteric, 2xSACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "CD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Jewgenij Mrawinskij, Leningrader Philharmonie - Tchaikovsky Symphonies Nos. 4, 5 & 6-disc1.iso"
+          ],
+          "target_discs": [
+            "Tchaikovsky_ Symphonies Nos. 4, 5 & 6/Disc 1"
+          ],
+          "issues": [
+            "NESTED_STRUCTURE"
+          ]
+        },
+        {
+          "name": "CD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Jewgenij Mrawinskij, Leningrader Philharmonie - Tchaikovsky Symphonies Nos. 4, 5 & 6-disc2.iso"
+          ],
+          "target_discs": [
+            "Tchaikovsky_ Symphonies Nos. 4, 5 & 6/Disc 2"
+          ],
+          "issues": [
+            "NESTED_STRUCTURE"
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Tchaikovsky - Symphony No. 4, Stravinsky - The Firebird (Ozawa, OdP) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Tchaikovsky_ Symphony No.4.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Stravinsky_ The Firebird (complete original version, 1910).iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "The Berlin Gala - A Salute To Carmen (Abbado) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Claudio Abbado, Berliner Philharmoniker - The Berlin Gala - Silvesterkonzert 1997.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "The Clifford Brown Box (Esoteric, 4SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc 1",
+          "expected_discs": 1,
+          "source_isos": [
+            "The Clifford Brown Box _Disc 1_ Sarah Vaughan.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 2",
+          "expected_discs": 1,
+          "source_isos": [
+            "The Clifford Brown Box _Disc 2_ Dinah Jams.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 3",
+          "expected_discs": 1,
+          "source_isos": [
+            "The Clifford Brown Box _Disc 3_ Clifford Brown And Max Roach.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc 4",
+          "expected_discs": 1,
+          "source_isos": [
+            "The Clifford Brown Box _Disc 4_ Study In Brown.iso"
+          ],
+          "target_discs": [
+            "(root)"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Verdi - Otello (Karajan, WP) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Verdi_ Otello.iso"
+          ],
+          "target_discs": [
+            "Verdi_ Otello"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Verdi_ Otello.iso"
+          ],
+          "target_discs": [
+            "Verdi_ Otello"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Verdi - Overtures (Sinopoli, WP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Verdi_ Overtures.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Verdi - Requiem - Abbado (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "disc 1.iso",
+        "disc 2.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": [
+        "MISSING_DISCS: 1 of 2"
+      ]
+    },
+    {
+      "name": "Vivaldi - Le Quattro Stagione - Ayo & I Musici (1959, 2021) (Esoteric, DSD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Wagner - Der Fliegende Hollander (Bohm, OdBF) (Esoteric, 2SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "Disc1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Wagner_ Der fliegende Hollander _Disc 1_.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Der fliegende Hollander _Disc 1_"
+          ],
+          "issues": []
+        },
+        {
+          "name": "Disc2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Wagner_ Der fliegende Hollander _Disc 2_.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Der fliegende Hollander _Disc 2_"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Wagner - Der Ring Des Nibelungen - Solti (2009) (Esoteric, 14SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "1. Vorabend - Das Rheingold 1853-54 (2 discs)",
+          "expected_discs": 2,
+          "source_isos": [
+            "90021.iso",
+            "90022.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Das Rheingold/Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 1 of 2"
+          ]
+        },
+        {
+          "name": "2. Erster Tag - Die Walku\u0308re 1854-56 (4 discs)",
+          "expected_discs": 4,
+          "source_isos": [
+            "90023.iso",
+            "90024.iso",
+            "90025.iso",
+            "90026.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Die Walkure/Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 3 of 4"
+          ]
+        },
+        {
+          "name": "3. Zweiter Tag - Siegfried 1856-71 (4 discs)",
+          "expected_discs": 4,
+          "source_isos": [
+            "90027.iso",
+            "90028.iso",
+            "90029.iso",
+            "90030.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Siegfried/Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 3 of 4"
+          ]
+        },
+        {
+          "name": "4. Dritter Tag - Go\u0308tterda\u0308mmerung 1869-74 (4 discs)",
+          "expected_discs": 4,
+          "source_isos": [
+            "90031.iso",
+            "90032.iso",
+            "90033.iso",
+            "90034.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Gotterdammerung/Disk1"
+          ],
+          "issues": [
+            "MISSING_DISCS: 3 of 4"
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Wagner - Overtures & Preludes (Karajan, BP) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Karajan Wagner - Overtures & Preludes.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Wagner - Overtures and Preludes (Barenboim, CSO) (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Wagner_ Overtures and Preludes.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    },
+    {
+      "name": "Wagner - Tristan und Isolde - Carlos Kleiber (Esoteric, 3SACD)",
+      "expected_discs": 1,
+      "source_isos": [],
+      "target_discs": [],
+      "sub_albums": [
+        {
+          "name": "SACD1",
+          "expected_discs": 1,
+          "source_isos": [
+            "Tristan und Isolde- kleiber1.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Tristan und Isolde"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD2",
+          "expected_discs": 1,
+          "source_isos": [
+            "Tristan und Isolde-Kleiber2.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Tristan und Isolde"
+          ],
+          "issues": []
+        },
+        {
+          "name": "SACD3",
+          "expected_discs": 1,
+          "source_isos": [
+            "Tristan und Isolde-Kleiber3.iso"
+          ],
+          "target_discs": [
+            "Wagner_ Tristan und Isolde"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "Willi Boskovsky - Strauss Concert  (Esoteric, SACD)",
+      "expected_discs": 1,
+      "source_isos": [
+        "Willi Boskovsky, Wiener Philharmoniker - Strauss Concert.iso"
+      ],
+      "target_discs": [
+        "(root)"
+      ],
+      "sub_albums": [],
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_albums": 178,
+    "total_source_isos": 270,
+    "total_target_discs": 257,
+    "albums_complete": 0,
+    "albums_missing_discs": 0,
+    "albums_missing_entirely": 0
+  }
+}
