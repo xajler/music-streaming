@@ -40,6 +40,7 @@ Building a NAS + audio endpoint using Raspberry Pi 5 with Radxa Penta SATA HAT f
 - [Philosophy: Ownership vs Subscription](#philosophy-ownership-vs-subscription)
 - [Notes & Tips](#notes--tips)
 - [Project Status](#project-status)
+- [DietPi v10 Upgrade Preparation](#dietpi-v10-upgrade-preparation)
 
 ---
 
@@ -502,23 +503,19 @@ modprobe snd-aloop
 **Create ALSA config:**
 ```bash
 cat > /etc/asound.conf << 'EOF'
-# Loopback device for Roon - with automatic format conversion
+# Loopback device for Roon - rate-adaptive configuration
+# Roon writes to Loopback device 1, bridge reads from device 0
+# No rate specified - accepts any rate from Roon (44.1k, 48k, 96k, 192k)
 pcm.loopout {
     type plug
-    slave {
-        pcm "hw:Loopback,0,0"
-        format S32_LE
-        rate 192000
-    }
+    slave.pcm "hw:Loopback,0,0"
+    # No rate specified - accepts any rate from Roon
 }
 
 pcm.loopin {
     type plug
-    slave {
-        pcm "hw:Loopback,1,0"
-        format S32_LE
-        rate 192000
-    }
+    slave.pcm "hw:Loopback,1,0"
+    # No rate specified - accepts any rate from Roon
 }
 
 # Default for other apps
@@ -540,8 +537,35 @@ EOF
 ```bash
 cat > /usr/local/bin/hdmi-bridge.sh << 'EOF'
 #!/bin/bash
-# Bridge audio from loopback to HDMI - supports up to 24-bit/192kHz
-# Uses plug device for automatic format conversion
+# Bridge audio from loopback to HDMI - 192kHz for hi-res support
+# Waits for HDMI connection AND Roon Bridge to start first
+
+# Wait up to 30 seconds for HDMI to be connected
+for i in {1..30}; do
+    if [ "$(cat /sys/class/drm/card1-HDMI-A-2/status 2>/dev/null)" = "connected" ]; then
+        break
+    fi
+    sleep 1
+done
+
+# Check if HDMI is connected
+if [ "$(cat /sys/class/drm/card1-HDMI-A-2/status 2>/dev/null)" != "connected" ]; then
+    echo "HDMI not connected, exiting"
+    exit 0  # Exit cleanly, don't crash-loop
+fi
+
+# Wait for Roon Bridge to be running (so it can claim Loopback first)
+for i in {1..60}; do
+    if systemctl is-active --quiet roonbridge && pgrep -f RAATServer > /dev/null; then
+        sleep 2  # Give Roon time to open Loopback device
+        break
+    fi
+    sleep 1
+done
+
+# Bridge audio from Loopback device 0 (captures what Roon plays to device 1) to HDMI
+# Uses plughw for automatic format/rate conversion - converts 44.1k/48k/96k to 192kHz
+# Supports all sample rates: plughw: automatically converts to 192kHz
 exec arecord -D plughw:Loopback,0,0 -f S32_LE -r 192000 -c 2 -t raw 2>/dev/null | \
      aplay -D plughw:vc4hdmi1,0 -f S32_LE -r 192000 -c 2 -t raw 2>/dev/null
 EOF
@@ -553,7 +577,8 @@ chmod +x /usr/local/bin/hdmi-bridge.sh
 cat > /etc/systemd/system/hdmi-bridge.service << 'EOF'
 [Unit]
 Description=HDMI Audio Bridge from Loopback
-After=sound.target
+After=sound.target roonbridge.service
+Wants=roonbridge.service
 
 [Service]
 Type=simple
@@ -610,8 +635,15 @@ Roon Core (Mac) → RAAT → Pi 5 Bridge → Loopback → hdmi-bridge → HDMI �
 
 **Supported formats:**
 - Up to **24-bit/192kHz** (high-resolution audio)
-- Automatic format conversion via ALSA plug devices
+- Automatic format conversion via ALSA `plughw:` plugin
+- Bridge runs at 192kHz, `plughw:` automatically converts 44.1k/48k/96k content to 192kHz
+- No Roon upsampling needed - conversion happens automatically
 - Tested working: 16/44.1, 24/88.2, 24/96, 24/192
+
+**⚠️ Important Notes:**
+- **Boot order:** Bridge waits for Roon Bridge to start first (prevents rate locking conflicts)
+- **HDMI connection:** If NAS boots before Marantz is turned on, bridge waits 30 seconds then exits cleanly. Restart bridge service after turning on Marantz: `systemctl restart hdmi-bridge`
+- **Rate conversion:** The `plughw:` plugin automatically converts any sample rate to 192kHz - no Roon settings changes needed
 
 **⚠️ Reliability Warning:**
 This Loopback→HDMI workaround is non-standard and may break after:
@@ -620,6 +652,48 @@ This Loopback→HDMI workaround is non-standard and may break after:
 - DietPi system updates
 
 **More robust alternative:** USB DAC connected directly to Pi 5 avoids all HDMI format issues. Roon natively supports USB audio. However, HDMI was chosen to avoid additional hardware cost.
+
+#### 3.4.1 Troubleshooting: "FORMAT_NOT_SUPPORTED" Errors After Shutdown
+
+**Symptoms:**
+- Roon shows "FORMAT_NOT_SUPPORTED" or "RAAT__OUTPUT_PLUGIN_STATUS_FORMAT_NOT_SUPPORTED" errors
+- Bridge service is crash-looping (check with `systemctl status hdmi-bridge`)
+- Roon cannot connect to Loopback device
+
+**Root Cause:**
+After shutdown/reboot, if NAS boots before Marantz is turned on:
+1. HDMI bridge starts → HDMI not connected → crash loop
+2. During crash loop, bridge briefly locks Loopback device to wrong rate
+3. Roon Bridge starts and cannot open Loopback device → format errors
+
+**Fix:**
+```bash
+# 1. Stop bridge service
+systemctl stop hdmi-bridge
+
+# 2. Restart Roon Bridge (so it can claim Loopback first)
+systemctl restart roonbridge
+sleep 5
+
+# 3. Turn on Marantz (if not already on)
+
+# 4. Start bridge service (it will wait for HDMI and Roon)
+systemctl start hdmi-bridge
+
+# 5. Verify both services running
+systemctl status hdmi-bridge roonbridge
+```
+
+**Prevention:**
+- Turn on Marantz before booting NAS, OR
+- Bridge automatically waits 30 seconds for HDMI, then exits cleanly
+- After turning on Marantz, restart bridge: `systemctl restart hdmi-bridge`
+
+**Why This Works:**
+- Bridge waits for Roon Bridge to start first (service dependency: `After=roonbridge.service`)
+- Bridge waits for HDMI connection before starting
+- `plughw:` plugin automatically converts any sample rate to 192kHz
+- Proper startup order prevents rate locking conflicts
 
 See `nas-connection.md` for verification checklist and recovery steps.
 
@@ -1163,6 +1237,52 @@ umount /mnt/backup
 - AirPlay is limited to CD quality (16-bit/44.1kHz)
 - For full quality: use Pi 5 Roon Bridge → HDMI → Marantz
 
+#### Roon "Metadata Improver: Paused" (Mac Core)
+
+**Symptoms:**
+- Roon shows "Metadata improver: Paused - cannot communicate with our servers"
+- Spinning wheel that never stops
+- Library scanning works but metadata enrichment fails
+
+**Root Cause:**
+Network interface changes on macOS (VPN, iPhone hotspot, Docker) cause Roon to lose connection to cloud servers. After repeated failures, Roon's auth token gets invalidated and the metadata queue is dumped.
+
+**Diagnose - Check for rogue network interfaces:**
+```bash
+# Check for unexpected network interfaces (VPN tunnels, hotspot, etc.)
+ifconfig | grep -E "^utun|inet 172\.|inet 10\."
+
+# If you see utun0-utun5 or IPs like 172.20.10.x, 10.x.x.x - that's the problem
+# These come from: ProtonVPN, iPhone hotspot, Docker, Parallels, etc.
+```
+
+**Check Roon logs for network errors:**
+```bash
+# Look for network reachability changes and auth failures
+grep -E "(reachability|Unauthorized|NetworkError)" ~/Library/RoonServer/Logs/RoonServer_log.txt | tail -20
+```
+
+**Fix:**
+1. **Disable the source of extra network interfaces:**
+   - **iPhone:** Settings → Personal Hotspot → Turn OFF "Allow Others to Join"
+   - **ProtonVPN:** System Settings → General → Login Items & Extensions → Network Extensions → Disable ProtonVPN
+   - **Docker:** Quit Docker Desktop when not in use
+
+2. **Reboot Mac** (clears stale tunnel interfaces)
+
+3. **Relaunch Roon** - metadata queue will rebuild automatically
+
+**Prevention:**
+- Keep VPN disabled when not actively using it
+- Disable iPhone hotspot auto-join
+- System Settings → Network → Set Service Order → Wi-Fi first
+- Disable AirDrop/Handoff if not needed
+
+**Why this happens:**
+Roon is designed for dedicated servers with stable network configs. When macOS detects interface changes, Roon's persistent connections to `api.roonlabs.net` get interrupted, causing auth token invalidation and metadata queue dump.
+
+---
+
 #### HDMI Audio Not Working (Pi 5 → Marantz)
 ```bash
 # Check bridge service is running
@@ -1402,10 +1522,46 @@ ssh root@192.168.100.83 'journalctl -u hdmi-bridge -f'
 
 ---
 
+---
+
+## DietPi v10 Upgrade Preparation
+
+**Status:** ⏸️ **MONITORING** - Waiting for DietPi v10.1+ release for stability.
+
+**Current:** DietPi v9.20.1 → **Available:** v10.0.1 → **Target:** v10.1+
+
+**Plan:**
+- ✅ Preparation guide created
+- ⏳ Monitoring for v10.1 release
+- ⏳ Will wait 2-4 weeks after v10.1 for stability
+- ⏳ Check forums for HDMI/audio issues before upgrading
+
+**Breaking Changes:**
+- Requires Debian 12 Bookworm minimum (we're on Debian 13 Trixie ✅)
+- Kernel updates may break HDMI bridge (HIGH RISK)
+- Systemd changes may affect service startup order
+
+**Preparation Guide:** See `plans/DIETPI_V10_UPGRADE_PREPARATION.md` for:
+- Pre-upgrade checklist and backup procedures
+- Step-by-step upgrade procedure
+- Post-upgrade verification steps
+- Troubleshooting if HDMI bridge breaks
+- Rollback plan
+- Monitoring checklist before upgrading
+
+**Monitoring:**
+- DietPi releases: https://dietpi.com/docs/releases/
+- DietPi forums: https://dietpi.com/forum/
+- Search for: "v10.1" + "audio" or "ALSA" issues
+
+---
+
 *Document created: December 2024*
 *Updated: January 2025 (architecture correction + HDMI audio solution)*
 *Updated: January 2026 (music library organization + Room 2 touchscreen + Reavon DSD player)*
 *Updated: January 2026 (HDMI bridge upgraded to 24-bit/192kHz support + esoteric-flac library sync)*
+*Updated: February 2026 (HDMI bridge restored to 192kHz with proper startup order + troubleshooting guide for shutdown issues)*
+*Updated: February 2026 (DietPi v10 upgrade preparation guide added)*
 *Hardware: Raspberry Pi 5 (8GB) + Radxa Penta SATA HAT + 2x14TB RAID1*
 *Room 1: Pi 5 (Roon) + Reavon UBR X110 (DSD via USB) → Marantz SR5015 (dual HDMI inputs)*
 *Room 2: RPi 3 + Official 7" touchscreen + USB IR receiver (RoPieeeXL)*
